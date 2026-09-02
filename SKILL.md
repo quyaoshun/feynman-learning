@@ -1,9 +1,9 @@
 ---
-name: feynman-deep-learning
+name: feynman-learning
 description: "使用费曼解释（Feynman Explanation）、知识缺口诊断（Knowledge Gap Diagnosis）、实例与边界、应用、主动回忆（Active Recall）和知识卡片（Knowledge Card），把文章、书籍章节、课程笔记、PDF、概念及研究资料转化为结构化理解。适用于用户希望学习、消化、解释、复习或检验掌握程度的任务；若用户只要求简单摘要且未要求深入学习，则不要使用。"
 ---
 
-# 费曼式深度学习（Feynman Deep Learning）
+# Feynman Learning｜费曼式学习
 
 把“看过”的材料转化为用户能够解释、检验、应用和长期记忆的知识。目标不是覆盖所有细节，而是形成准确、可迁移的理解。
 
@@ -37,7 +37,7 @@ description: "使用费曼解释（Feynman Explanation）、知识缺口诊断�
 
 ## 选择工作模式（Operating Mode）
 
-### 默认：深度学习输出（Deep-Learning Output）
+### 默认：完整学习输出（Full Learning Output）
 
 读取 [references/deliverables.md](references/deliverables.md)。面对内容丰富的材料时使用完整结构；面对单一或较小概念时合并空洞、重复的章节。输出深度由材料和用户目标决定，不使用固定字数。
 

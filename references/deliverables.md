@@ -1,4 +1,4 @@
-# 深度学习交付格式（Deep-Learning Deliverables）
+# 学习成果格式（Learning Deliverables）
 
 默认的非互动学习任务使用本参考。根据材料规模调整每一部分；不要为了填满模板而制造没有价值的内容。
 

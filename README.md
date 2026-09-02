@@ -1,4 +1,4 @@
-# Feynman Deep Learning｜费曼式深度学习
+# Feynman Learning｜费曼式学习
 
 一个用于深度理解与长期记忆的 Codex Skill。它把文章、书籍章节、课程笔记、PDF、概念和研究资料，从“看过”转化为可解释、可验证、可应用、可复习的知识。
 
@@ -21,19 +21,19 @@
 克隆仓库到 Codex 的个人 Skills 目录：
 
 ```bash
-git clone https://github.com/quyaoshun/feynman-deep-learning.git ~/.codex/skills/feynman-deep-learning
+git clone https://github.com/quyaoshun/feynman-learning.git ~/.codex/skills/feynman-learning
 ```
 
 重新打开 Codex 后即可使用。Skill 默认允许按任务内容自动触发，也可以显式调用：
 
 ```text
-$feynman-deep-learning
+$feynman-learning
 ```
 
 ## 使用示例
 
 ```text
-使用 $feynman-deep-learning 帮我深入理解这篇文章。
+使用 $feynman-learning 帮我深入理解这篇文章。
 ```
 
 ```text
@@ -65,7 +65,7 @@ $feynman-deep-learning
 ## 文件结构
 
 ```text
-feynman-deep-learning/
+feynman-learning/
 ├── SKILL.md
 ├── agents/
 │   └── openai.yaml
