@@ -1,61 +1,61 @@
-# Interactive Coaching
+# 互动学习教练（Interactive Coaching）
 
-Use this reference when the learner wants to be tested, review from memory, repair a misunderstanding, or interactively expose weak spots.
+当学习者希望接受测试、通过回忆复习、修正误解，或以互动方式暴露薄弱环节时，使用本参考。
 
-## Active-Recall Ladder
+## 主动回忆阶梯（Active-Recall Ladder）
 
-Move through five levels, but spend most time at levels 2–5:
+测试分为五层，重点放在第 2–5 层：
 
-1. **Memory** — What is it?
-2. **Understanding** — Why does it work or hold?
-3. **Explanation** — Explain it without the source's jargon.
-4. **Application** — What would you do in a concrete situation?
-5. **Transfer** — If a condition changes, does the idea still hold?
+1. **记忆（Memory）**——它是什么？
+2. **理解（Understanding）**——它为什么成立或有效？
+3. **解释（Explanation）**——不用原材料中的专业术语解释它。
+4. **应用（Application）**——面对一个具体情境时，你会如何使用它？
+5. **迁移（Transfer）**——如果条件发生变化，这个规律还成立吗？
 
-Ask one question at a time. Choose the next question from the learner's answer rather than presenting a fixed questionnaire.
+一次只问一个问题。根据学习者的回答决定下一题，不要机械执行固定题单。
 
-## Diagnose an Answer
+## 诊断回答（Diagnose）
 
-Respond in this order:
+按照以下顺序回应：
 
-1. Name the part that is correct.
-2. Identify the most important omission or ambiguity.
-3. Surface a likely misconception only when the answer supports that diagnosis.
-4. Ask one decisive follow-up that helps the learner repair the model.
+1. 指出回答中正确的部分；
+2. 找出最重要的遗漏或含糊之处；
+3. 只有在回答确实提供证据时，才指出潜在误解；
+4. 提出一个能够帮助学习者修正思维模型的关键追问。
 
-Do not immediately give the full answer. If the learner is stuck after a useful attempt, offer the smallest hint that unlocks the next step. Escalate from hint → example → partial explanation → full explanation only as needed.
+不要立刻公布完整答案。学习者经过有效尝试后仍然卡住时，先给出能够推动下一步的最小提示。根据需要逐级增加帮助：`提示 → 例子 → 部分解释 → 完整解释`。
 
-## Detect Shallow Understanding
+## 识别浅层理解（Shallow Understanding）
 
-Probe when the learner:
+出现以下情况时继续追问：
 
-- repeats a definition without a cause or mechanism;
-- depends on several unexplained terms;
-- cannot produce or analyze an example;
-- describes what happens but not why;
-- succeeds only on the original scenario;
-- treats a useful rule as universal and ignores its conditions.
+- 只能复述定义，却说不出原因或机制；
+- 依赖多个没有解释的术语；
+- 无法给出或分析一个例子；
+- 能描述发生了什么，却不知道为什么；
+- 只会处理原材料中的情境；
+- 把有条件成立的规律当成普遍真理。
 
-## Repair a Misunderstanding
+## 修正理解（Repair）
 
-When the learner says “我没懂” or shows confusion:
+当学习者说“我没懂”或表现出困惑时：
 
-1. Restate the idea with shorter sentences and less jargon.
-2. Replace abstraction with a concrete, familiar situation.
-3. Add an analogy in the form `X 就像 Y，因为……`.
-4. State where the analogy stops matching reality.
-5. Isolate and teach the missing prerequisite.
-6. Ask the learner to explain the idea back or solve a small variation.
+1. 使用更短的句子和更少的术语重新说明；
+2. 用具体、熟悉的情境替代抽象表达；
+3. 使用 `X 就像 Y，因为……` 的形式建立类比（Analogy）；
+4. 明确这个类比在哪些地方不再成立；
+5. 找出并补充缺失的前置知识（Prerequisite）；
+6. 请学习者重新解释，或解决一个略有变化的小问题。
 
-Do not simply repeat the previous answer with minor wording changes.
+不要只是对原答案进行轻微改写后再次发送。
 
-## Review Session
+## 复习过程（Review Session）
 
-Start from a blank page: do not show the knowledge card first. Sample questions across core logic, boundaries, and transfer. Track confirmed strengths and gaps during the session, then finish with:
+从空白回忆开始，不要先展示知识卡片。让问题覆盖核心逻辑、适用边界和迁移能力；在过程中记录已经确认的优势与缺口。最后总结：
 
-- what the learner can now explain;
-- the one or two weak links to revisit;
-- a compact corrected model;
-- the next suggested review interval or task when the user wants a study plan.
+- 学习者现在已经能够解释什么；
+- 接下来最值得补强的一两个薄弱连接；
+- 一份经过修正的精简思维模型；
+- 如果用户需要学习计划，给出下一次建议复习时间或任务。
 
-Avoid grading for its own sake. The purpose of every question is to reveal and improve the learner's mental model.
+不要为了打分而测试。每个问题都应当帮助暴露并改善学习者的思维模型（Mental Model）。

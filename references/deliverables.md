@@ -1,93 +1,93 @@
-# Deep-Learning Deliverables
+# 深度学习交付格式（Deep-Learning Deliverables）
 
-Use this reference for the default, non-interactive learning output. Scale each section to the material; do not manufacture content merely to fill the template.
+默认的非互动学习任务使用本参考。根据材料规模调整每一部分；不要为了填满模板而制造没有价值的内容。
 
-## Default Output
+## 默认输出结构（Default Output）
 
 ### 01｜主题概览
 
-Explain in 3–5 sentences what the material is mainly about, why it matters, and the line of reasoning it follows.
+用 3–5 句话说明材料主要讲什么、为什么重要，以及整体论证或讲解路径。
 
 ### 02｜核心问题
 
-List the small number of questions the material is trying to answer. Phrase them as genuine questions that organize the later knowledge.
+列出材料试图回答的少数关键问题。把它们写成真正能够组织后续知识的问题，而不是把章节标题改成问句。
 
-### 03｜知识地图
+### 03｜知识地图（Knowledge Map）
 
-Show the main path:
+展示主要路径：
 
 `主题 → 核心问题 → 核心概念 → 原理 → 方法 → 应用`
 
-Annotate important links with relationship words such as “前提”, “导致”, “对比”, “包含”, “失效于”, or “应用于”. Prefer a compact indented map for simple topics and a Mermaid diagram only when the relationships would otherwise be hard to follow.
+使用“前提”“导致”“对比”“包含”“失效于”“应用于”等词标注重要连接。简单主题优先使用紧凑的缩进结构；只有当关系用文字难以看清时，才使用 Mermaid 图。
 
 ### 04｜核心知识
 
-Select 3–7 ideas. For each, include only the fields that add value:
+选择 3–7 个关键知识。每个知识只保留真正有价值的字段：
 
-- **一句话结论** — the claim worth remembering;
-- **白话解释** — an explanation an intelligent beginner can retell;
-- **为什么 / 如何工作** — the causal or logical mechanism;
-- **例子** — a concrete situation;
-- **应用** — where the idea helps;
-- **边界** — when it fails, does not apply, or becomes misleading.
+- **一句话结论**——最值得记住的结论；
+- **白话解释**——聪明的初学者能够复述的解释；
+- **为什么 / 如何工作**——背后的因果或逻辑机制；
+- **例子**——一个具体情境；
+- **应用**——这个知识能在哪里发挥作用；
+- **边界**——什么时候失效、不适用或容易产生误导。
 
 ### 05｜容易产生理解错觉的地方
 
-Identify claims that look familiar or intuitive but are easy to parrot without understanding. Explain the hidden question, causal step, or distinction that must be made explicit.
+找出那些看起来熟悉或直观、实际上很容易只会复述的内容。指出真正需要说明的隐藏问题、因果环节或关键区别。
 
-### 06｜知识盲点
+### 06｜知识缺口（Knowledge Gaps）
 
-Separate two kinds of gaps:
+区分两类缺口：
 
-- **Material gaps:** prerequisites or missing evidence required by the source.
-- **Learner risks:** likely gaps that require answers or behavior to confirm.
+- **材料缺口（Material Gaps）**——原材料缺少的前置知识或关键证据；
+- **学习者风险（Learner Risks）**——尚未证实、需要通过回答或行为确认的潜在缺口。
 
-For each important gap, record: what is missing, why the gap arises, the prerequisite involved, what to learn next, and the corrected explanation once that prerequisite is supplied.
+对每个重要缺口记录：缺少什么、为什么会出现、涉及哪个前置知识、接下来应补什么，以及补齐前置知识后的正确解释。
 
-Use these categories when helpful: concept, principle, relationship, application, and boundary.
+需要分类时，使用：概念缺口、原理缺口、关系缺口、应用缺口和边界缺口。
 
-### 07｜费曼解释
+### 07｜费曼解释（Feynman Explanation）
 
-Teach the whole topic as a coherent story to an intelligent newcomer. Introduce terminology only after the underlying idea. Explain causes and relationships, not only definitions. Keep the explanation independently understandable without the source open.
+把整个主题讲成一个聪明初学者能够理解的连贯故事。先讲清底层想法，再引入术语；解释原因和关系，而不只给定义。最终解释应当在不打开原材料的情况下也能独立理解。
 
-### 08｜自测
+### 08｜主动自测（Active Recall）
 
-Provide 5–10 questions without answers. Prioritize:
+提供 5–10 道不附答案的问题，优先覆盖：
 
-1. Why is the key claim true?
-2. Can the learner explain it without the source's terminology?
-3. Can the learner use it in a concrete situation?
-4. Can the learner distinguish it from a neighboring concept?
-5. Does it survive a changed condition, and why?
+1. 核心结论为什么成立？
+2. 能否不用原材料中的术语解释它？
+3. 能否把它用于一个具体情境？
+4. 能否将它与相近概念区分开？
+5. 条件发生变化后，它是否仍然成立？为什么？
 
-### 09｜知识卡片
+### 09｜知识卡片（Knowledge Card）
 
-Create a compact, reusable card with:
+生成一张紧凑、可复用的卡片，包含：
 
-- **主题** — one sentence;
-- **核心问题** — the problem this knowledge solves;
-- **一句话结论** — the single most valuable memory;
-- **核心概念** — 3–7 concepts;
-- **原理** — why it holds;
-- **白话解释** — a jargon-light retelling;
-- **例子** — at least one;
-- **反例 / 边界** — when it does not hold;
-- **常见误区** — the most likely confusion;
-- **应用** — where to use it;
-- **关联知识** — useful connections to prior or neighboring knowledge;
-- **我的理解盲点** — confirmed gaps, or clearly labeled questions still to verify;
-- **自测题** — 3–5 high-value prompts.
+- **主题**——用一句话描述；
+- **核心问题**——这个知识解决什么问题；
+- **一句话结论**——最有价值的单一记忆；
+- **核心概念**——3–7 个；
+- **原理**——为什么成立；
+- **白话解释**——低术语密度的复述；
+- **例子**——至少一个；
+- **反例 / 边界**——什么时候不成立；
+- **常见误区**——最容易出现的混淆；
+- **应用**——可以在哪里使用；
+- **关联知识**——与已有或相邻知识的连接；
+- **我的理解盲点**——已确认的缺口，或明确标注为“待验证”的问题；
+- **自测题**——3–5 道高价值问题。
 
 ### 10｜一句话记忆
 
-Answer: “If only one sentence remains three months from now, what should it be?”
+回答：“如果三个月后只能记住一句话，应该记住什么？”
 
-## Three Compression Levels
+## 三层压缩（Three Compression Levels）
 
-When the output will be kept for review, finish with:
+当输出将被长期保存和复习时，最后提供：
 
-1. **完整理解版** — structure, mechanisms, examples, and boundaries;
-2. **复习版** — core concepts, central logic, and easy-to-miss errors;
-3. **一句话版** — the durable memory.
+1. **完整理解版（Full Version）**——保留结构、机制、例子和边界；
+2. **复习版（Review Version）**——只保留核心概念、中心逻辑和易错点；
+3. **一句话版（One-Sentence Version）**——最耐久的一句话记忆。
 
-Avoid repeating the same prose across all three levels. Each level should genuinely compress the one above it.
+不要在三个版本中重复同一段文字。每一层都应当真正压缩上一层。

@@ -1,69 +1,70 @@
 ---
 name: feynman-deep-learning
-description: Turn articles, book chapters, notes, PDFs, concepts, and research material into structured understanding through Feynman explanations, gap diagnosis, examples, boundaries, applications, active recall, and reusable knowledge cards. Use when the user wants to learn, digest, explain, review, or test understanding of material; do not use for a simple summary unless deeper learning is requested.
+description: "使用费曼解释（Feynman Explanation）、知识缺口诊断（Knowledge Gap Diagnosis）、实例与边界、应用、主动回忆（Active Recall）和知识卡片（Knowledge Card），把文章、书籍章节、课程笔记、PDF、概念及研究资料转化为结构化理解。适用于用户希望学习、消化、解释、复习或检验掌握程度的任务；若用户只要求简单摘要且未要求深入学习，则不要使用。"
 ---
 
-# Feynman Deep Learning
+# 费曼式深度学习（Feynman Deep Learning）
 
-Convert material from something the user has merely seen into knowledge they can explain, test, apply, and retain. The target is not exhaustive coverage; it is accurate, transferable understanding.
+把“看过”的材料转化为用户能够解释、检验、应用和长期记忆的知识。目标不是覆盖所有细节，而是形成准确、可迁移的理解。
 
-## Calibrate the Learning Task
+## 校准学习任务（Calibrate）
 
-Infer the learner's goal, likely background, desired depth, and available material from context. Proceed with reasonable assumptions when they do not change the task materially. Ask only when the source itself is missing or a choice would substantially change the result.
+从上下文推断学习目标、已有基础、期望深度和可用材料。只要不会实质改变任务，就采用合理假设继续推进；仅当缺少原材料，或某个选择会显著改变结果时再询问用户。
 
-For long or uneven material, prioritize the small set of ideas that determines understanding of the whole. Usually select 3–7 core ideas rather than mirroring every section.
+面对篇幅很长或质量不均的材料，优先找出决定整体理解的少数关键内容。通常提炼 3–7 个核心知识，而不是机械复刻原材料的全部章节。
 
-## Run the Learning Loop
+## 运行学习循环（Learning Loop）
 
-1. **Extract** — Identify the central topic, questions, claims, facts, causal links, methods, prerequisites, and easily missed qualifications. Remove repetition, rhetoric, and low-value detail.
-2. **Structure** — Build a knowledge map instead of a flat list. Mark relations such as prerequisite, cause, contrast, containment, consequence, failure condition, and application.
-3. **Explain** — Restate each core idea for an intelligent beginner. Cover what it is, why it holds, how it works, what problem it solves, and how it connects to the other ideas. Define necessary terminology before using it.
-4. **Challenge** — Look for signs of shallow understanding: repeated definitions, unexplained jargon, missing causes, no concrete example, or inability to handle a changed situation.
-5. **Fill gaps** — Classify important gaps as concept, principle, relationship, application, or boundary gaps. State the missing prerequisite, what should be learned, and then re-explain the idea after supplying the minimum needed foundation.
-6. **Apply** — Give at least one concrete example for each important idea. Add an analogy when useful and say where it breaks. Include a counterexample, limitation, or failure condition for the most consequential ideas.
-7. **Test** — Prefer active-recall questions about explanation, causality, application, and transfer over recognition or definition recall. Do not immediately reveal answers unless the user requests them.
-8. **Consolidate** — Produce a reusable knowledge card and compress the result into a full version, a review version, and a one-sentence memory.
+1. **提炼（Extract）**——识别核心主题、关键问题、主要结论、重要事实、因果关系、方法、前置知识和容易忽略的限定条件；过滤重复、修辞和低价值细节。
+2. **结构化（Structure）**——建立知识地图（Knowledge Map），而不是平铺知识点。标明前提、原因、对比、包含、结果、失效条件和应用等关系。
+3. **解释（Explain）**——面向聪明但不了解该领域的初学者，用自己的语言重述每个核心知识。说明它是什么、为什么成立、如何工作、解决什么问题，以及它与其他知识的联系。必须使用术语时，先解释术语。
+4. **质疑（Challenge）**——主动寻找浅层理解的信号：只能复述定义、依赖未解释的术语、缺少原因、无法举例，或情境稍微变化就不会处理。
+5. **补缺（Fill Gaps）**——把重要缺口分为概念、原理、关系、应用和边界缺口。说明缺少的前置知识、应该补什么，并在补充最少必要基础后重新解释。
+6. **应用（Apply）**——为每个重要知识提供至少一个具体例子。类比有帮助时可以使用，但必须指出类比失效的位置；对关键知识补充反例、限制条件或失效场景。
+7. **检验（Test）**——优先用主动回忆（Active Recall）检验解释、因果、应用和迁移能力，而不是只考定义识别。除非用户要求，否则不要立刻给出答案。
+8. **沉淀（Consolidate）**——生成可复用的知识卡片（Knowledge Card），并压缩为完整理解版、复习版和一句话记忆版。
 
-Stop drilling when the learner can explain the idea accurately and use it in a new situation. Do not pursue endless “why” chains that no longer improve those outcomes.
+当学习者已经能够准确解释知识，并能在新场景中使用它时停止深挖。不要进行无法继续改善解释或应用能力的无限“为什么”追问。
 
-## Preserve Accuracy
+## 保证准确性（Accuracy）
 
-- Explain in original, simple language; do not replace understanding with copied definitions or large excerpts.
-- Keep simplification faithful. Name important assumptions and causal links rather than hiding them.
-- Distinguish what the supplied material supports from added background knowledge or inference.
-- If the evidence is insufficient, say `当前材料不足以确定` and identify what would resolve the uncertainty.
-- Do not invent facts, citations, examples presented as real events, or the learner's personal blind spots. Frame predicted blind spots as likely risks until the learner's answers confirm them.
+- 使用原创、简单的语言解释；不要用复制定义或大段摘抄冒充理解。
+- 简化不能失真。明确重要假设和因果链，不要为了通俗而隐藏关键条件。
+- 区分原材料直接支持的内容、补充的背景知识和推断。
+- 证据不足时明确写出 `当前材料不足以确定`，并说明还需要什么信息。
+- 不得编造事实、引用或被包装成真实事件的例子。
+- 不要在用户尚未回答问题前，把预测的盲点写成用户已经存在的盲点；应先标记为“可能的理解风险”，再通过互动确认。
 
-## Select the Operating Mode
+## 选择工作模式（Operating Mode）
 
-### Default: Deep Learning Output
+### 默认：深度学习输出（Deep-Learning Output）
 
-Read [references/deliverables.md](references/deliverables.md). Use the complete structure for substantial material, but collapse empty or redundant sections for narrow concepts. Depth should follow the material and the user's goal, not a fixed word count.
+读取 [references/deliverables.md](references/deliverables.md)。面对内容丰富的材料时使用完整结构；面对单一或较小概念时合并空洞、重复的章节。输出深度由材料和用户目标决定，不使用固定字数。
 
-### “考考我” or Quiz Mode
+### “考考我”：测试模式（Quiz Mode）
 
-Read [references/coaching.md](references/coaching.md). Ask one question at a time, wait for the answer, diagnose it, and adapt the next question. Favor levels 2–5.
+读取 [references/coaching.md](references/coaching.md)。一次只问一个问题，等待回答后进行诊断，并根据回答调整下一题。优先测试理解、解释、应用和迁移。
 
-### “我没懂” or Re-explanation Mode
+### “我没懂”：重新解释模式（Re-explanation Mode）
 
-Read [references/coaching.md](references/coaching.md). Do not repeat the same explanation. Reduce jargon, use a more concrete example, try an analogy with its limit, supply missing prerequisites, and then check understanding.
+读取 [references/coaching.md](references/coaching.md)。不要重复原答案。降低术语密度，改用更具体的例子，尝试带边界的类比，补充缺失的前置知识，然后再次检查理解。
 
-### “继续深挖” or Deep-Dive Mode
+### “继续深挖”：深挖模式（Deep-Dive Mode）
 
-Move through `Why → How → Boundary → Application`. Go one layer deeper at a time and keep the new detail connected to the core model.
+按照 `为什么（Why）→ 如何发生（How）→ 边界（Boundary）→ 应用（Application）` 逐层深入。每次只向下一层，并让新增细节始终连接核心模型。
 
-### “帮我复习” or Review Mode
+### “帮我复习”：复习模式（Review Mode）
 
-Begin with active recall rather than showing the full notes. Ask one high-value question at a time, use the learner's answers to target weak links, and reveal a compact review only after retrieval practice or when requested.
+先进行主动回忆，不要直接展示完整笔记。一次提出一个高价值问题，根据回答定位薄弱环节；完成提取练习后，或用户明确要求时，再展示精简复习内容。
 
-## Quality Gate
+## 完成前检查（Quality Gate）
 
-Before finishing, check that the result:
+确认结果满足以下条件：
 
-- identifies the questions that organize the topic;
-- shows relationships rather than only listing facts;
-- explains why and how in plain language;
-- includes examples plus meaningful boundaries;
-- distinguishes demonstrated gaps from anticipated risks;
-- offers at least one application or transfer task;
-- leaves the learner with unanswered recall questions and a compact knowledge asset.
+- 找到了组织整个主题的核心问题；
+- 展示了知识关系，而不是只罗列事实；
+- 用白话解释了“为什么”和“如何工作”；
+- 提供了例子和有意义的适用边界；
+- 区分了已确认的知识缺口和预测的理解风险；
+- 至少提供了一个应用或迁移任务；
+- 留下了尚未公布答案的主动回忆题，以及可长期复习的知识资产。
